@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Contracts.PAPSwitchOrder>
+@{
+    ViewBag.Title = "PAPSwitchOrder";
+}
+
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Biller.Name)
+            </th>            
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Biller.Name)
+                </td>
+            </tr>
+
+        }
+
+    </table>
+
