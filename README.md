@@ -1,0 +1,2 @@
+# WebPipeline
+A beautiful MEF based implementation of chain of responsibility. You are able to create functional modules (unit of work) independently without knowing what any other is doing, just by importing and exporting a global object that flows through the whole request processing pipeline. Modules can be organized and grouped into a channel that defines what a pipeline is able to do. Hot swapping and plugging makes development and deployment of a componentized product as easy and flexible as you can imagine.
