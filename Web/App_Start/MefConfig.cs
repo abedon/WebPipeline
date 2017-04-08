@@ -1,4 +1,12 @@
-﻿using Contracts;
+﻿/* 
+ * WebPipeline 
+ * https://github.com/abedon/WebPipeline 
+ * 
+ * Copyright (c) 2017 Dong Chen
+ * Licensed under the Apache 2.0 License. 
+ */
+
+using Contracts;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
@@ -13,7 +21,7 @@ using System.Web.Http;
 using System.Web.Http.Dependencies;
 using System.Web.Mvc;
 
-namespace WebApplication2
+namespace WebPipeline
 {
 	public class MefConfig
 	{

@@ -6,10 +6,10 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Configuration;
 using System.Linq;
-using WebApplication2.Providers;
+using WebPipeline.Providers;
 using Utils;
 
-namespace WebApplication2
+namespace WebPipeline
 {
 	public class WebApiApplication : System.Web.HttpApplication
 	{

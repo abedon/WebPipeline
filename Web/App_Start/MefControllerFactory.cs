@@ -10,7 +10,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.SessionState;
 
-namespace WebApplication2
+namespace WebPipeline
 {
 	public class MefControllerFactory : DefaultControllerFactory
 	{

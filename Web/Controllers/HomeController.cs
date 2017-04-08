@@ -1,4 +1,12 @@
-﻿using Contracts;
+﻿/* 
+ * WebPipeline 
+ * https://github.com/abedon/WebPipeline 
+ * 
+ * Copyright (c) 2017 Dong Chen
+ * Licensed under the Apache 2.0 License. 
+ */
+
+using Contracts;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
@@ -6,7 +14,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WebApplication2.Controllers
+namespace WebPipeline.Controllers
 {
 	public class HomeController : Controller
 	{

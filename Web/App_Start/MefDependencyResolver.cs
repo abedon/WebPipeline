@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http.Dependencies;
 
-namespace WebApplication2
+namespace WebPipeline
 {
 	/// <summary>
 	/// Resolve dependencies for MVC / Web API using MEF.

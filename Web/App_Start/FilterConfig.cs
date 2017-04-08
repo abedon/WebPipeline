@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace WebApplication2
+namespace WebPipeline
 {
 	public class FilterConfig
 	{

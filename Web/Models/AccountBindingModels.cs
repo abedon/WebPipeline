@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace WebApplication2.Models
+namespace WebPipeline.Models
 {
     // Models used as parameters to AccountController actions.
 

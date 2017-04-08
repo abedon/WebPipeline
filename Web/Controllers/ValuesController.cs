@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace WebApplication2.Controllers
+namespace WebPipeline.Controllers
 {
     [Authorize]
     public class ValuesController : ApiController
